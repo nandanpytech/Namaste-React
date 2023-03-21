@@ -1,0 +1,7 @@
+Why we have two file in react?
+- Because React not only work on website. It may use in mobile, desktop application.
+so now we are using react-dom for browser only as file. First file contain core react things.
+
+What is CDN?
+- It is used to download the essential package from browser to our development and in that package, we can get 
+everything ready for react usage.
