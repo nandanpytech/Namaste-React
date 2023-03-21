@@ -5,3 +5,48 @@ so now we are using react-dom for browser only as file. First file contain core 
 What is CDN?
 - It is used to download the essential package from browser to our development and in that package, we can get 
 everything ready for react usage.
+
+What is usage of First package?
+- It is used to create Element
+
+What is usage of second package?
+- It is used to place  created element on root.
+
+Way to create element from scratch?
+-   const a=React.createElement("h1",{},"hello Nandan")
+    const root=ReactDOM.createRoot(document.getElementById("root"))
+    root.render(a)
+
+What is package.json?
+- It is configuration to npm package
+- It keep track of version of dependency
+- It not store exact version of dependency
+
+What is package-lock.json?
+- It stores the exact version of dependency and their multiple stuff
+- Used to maintain same code on local and host.
+
+- 
+What is bundler?
+- It gives strength to start react project ex:webpack, vite, parcel
+
+Two types of dependency?
+-Dev dependency : for production
+-Normal dependency : for development (-D)
+
+What is caret?
+- to update the version of dependency.
+
+What is node modules?
+- It stores all the dependency code.
+
+What is transitive dependency?
+- If we download parcel , it may also have another packages and that package
+can be have more packages. So thats why we have all packages in node modules.
+
+Is required to push node modules?
+- No, Because we can download these with just one line code- npm install
+
+What is npx?
+- It is used to execute the package.
+
